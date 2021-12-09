@@ -1,0 +1,224 @@
+namespace fTask_6
+{
+   partial class Zad1
+   {
+       /// <summary>
+       /// Required designer variable.
+       /// </summary>
+       private System.ComponentModel.IContainer components = null;
+ 
+       /// <summary>
+       /// Clean up any resources being used.
+       /// </summary>
+       /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       protected override void Dispose(bool disposing)
+       {
+           if (disposing && (components != null))
+           {
+               components.Dispose();
+           }
+           base.Dispose(disposing);
+       }
+ 
+       #region Windows Form Designer generated code
+ 
+       /// <summary>
+       /// Required method for Designer support - do not modify
+       /// the contents of this method with the code editor.
+       /// </summary>
+       private void InitializeComponent()
+       {
+           this.label1 = new System.Windows.Forms.Label();
+           this.tbN = new System.Windows.Forms.TextBox();
+           this.labArr = new System.Windows.Forms.Label();
+           this.lab1Proizv = new System.Windows.Forms.Label();
+           this.labIsThree1 = new System.Windows.Forms.Label();
+           this.button1 = new System.Windows.Forms.Button();
+           this.tbN2 = new System.Windows.Forms.TextBox();
+           this.tbM = new System.Windows.Forms.TextBox();
+           this.label2 = new System.Windows.Forms.Label();
+           this.label3 = new System.Windows.Forms.Label();
+           this.labArr2 = new System.Windows.Forms.Label();
+           this.labProizv2 = new System.Windows.Forms.Label();
+           this.labIsThree2 = new System.Windows.Forms.Label();
+           this.button2 = new System.Windows.Forms.Button();
+           this.SuspendLayout();
+           //
+           // label1
+           //
+           this.label1.AutoSize = true;
+           this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.label1.Location = new System.Drawing.Point(220, 21);
+           this.label1.Name = "label1";
+           this.label1.Size = new System.Drawing.Size(383, 39);
+           this.label1.TabIndex = 0;
+           this.label1.Text = "Количество элементов";
+           //
+           // tbN
+           //
+           this.tbN.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.tbN.Location = new System.Drawing.Point(351, 73);
+           this.tbN.Name = "tbN";
+           this.tbN.Size = new System.Drawing.Size(93, 45);
+           this.tbN.TabIndex = 1;
+           //
+           // labArr
+           //
+           this.labArr.AutoSize = true;
+           this.labArr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.labArr.Location = new System.Drawing.Point(38, 163);
+           this.labArr.Name = "labArr";
+           this.labArr.Size = new System.Drawing.Size(183, 20);
+           this.labArr.TabIndex = 2;
+           this.labArr.Text = "Одномерный массив";
+           //
+           // lab1Proizv
+           //
+           this.lab1Proizv.AutoSize = true;
+           this.lab1Proizv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.lab1Proizv.Location = new System.Drawing.Point(335, 163);
+           this.lab1Proizv.Name = "lab1Proizv";
+           this.lab1Proizv.Size = new System.Drawing.Size(133, 20);
+           this.lab1Proizv.TabIndex = 3;
+           this.lab1Proizv.Text = "Произведение";
+           //
+           // labIsThree1
+           //
+           this.labIsThree1.AutoSize = true;
+           this.labIsThree1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.labIsThree1.Location = new System.Drawing.Point(619, 165);
+           this.labIsThree1.Name = "labIsThree1";
+           this.labIsThree1.Size = new System.Drawing.Size(125, 20);
+           this.labIsThree1.TabIndex = 4;
+           this.labIsThree1.Text = "Трехзначное?";
+           //
+           // button1
+           //
+           this.button1.Location = new System.Drawing.Point(319, 264);
+           this.button1.Name = "button1";
+           this.button1.Size = new System.Drawing.Size(185, 60);
+           this.button1.TabIndex = 5;
+           this.button1.Text = "Получить ответ";
+           this.button1.UseVisualStyleBackColor = true;
+           this.button1.Click += new System.EventHandler(this.button1_Click);
+           //
+           // tbN2
+           //
+           this.tbN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.tbN2.Location = new System.Drawing.Point(129, 411);
+           this.tbN2.Name = "tbN2";
+           this.tbN2.Size = new System.Drawing.Size(100, 45);
+           this.tbN2.TabIndex = 6;
+           //
+           // tbM
+           //
+           this.tbM.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.tbM.Location = new System.Drawing.Point(581, 410);
+           this.tbM.Name = "tbM";
+           this.tbM.Size = new System.Drawing.Size(100, 45);
+           this.tbM.TabIndex = 7;
+           //
+           // label2
+           //
+           this.label2.AutoSize = true;
+           this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.label2.Location = new System.Drawing.Point(158, 368);
+           this.label2.Name = "label2";
+           this.label2.Size = new System.Drawing.Size(42, 39);
+           this.label2.TabIndex = 8;
+           this.label2.Text = "N";
+           //
+           // label3
+           //
+           this.label3.AutoSize = true;
+           this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.label3.Location = new System.Drawing.Point(605, 368);
+           this.label3.Name = "label3";
+           this.label3.Size = new System.Drawing.Size(45, 39);
+           this.label3.TabIndex = 9;
+           this.label3.Text = "M";
+           //
+           // labArr2
+           //
+           this.labArr2.AutoSize = true;
+           this.labArr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.labArr2.Location = new System.Drawing.Point(42, 482);
+           this.labArr2.Name = "labArr2";
+           this.labArr2.Size = new System.Drawing.Size(169, 20);
+           this.labArr2.TabIndex = 10;
+           this.labArr2.Text = "Двумерный массив";
+           //
+           // labProizv2
+           //
+           this.labProizv2.AutoSize = true;
+           this.labProizv2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.labProizv2.Location = new System.Drawing.Point(339, 482);
+           this.labProizv2.Name = "labProizv2";
+           this.labProizv2.Size = new System.Drawing.Size(133, 20);
+           this.labProizv2.TabIndex = 11;
+           this.labProizv2.Text = "Произведение";
+           //
+           // labIsThree2
+           //
+           this.labIsThree2.AutoSize = true;
+           this.labIsThree2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+           this.labIsThree2.Location = new System.Drawing.Point(623, 481);
+           this.labIsThree2.Name = "labIsThree2";
+           this.labIsThree2.Size = new System.Drawing.Size(125, 20);
+           this.labIsThree2.TabIndex = 12;
+           this.labIsThree2.Text = "Трехзначное?";
+           //
+           // button2
+           //
+           this.button2.Location = new System.Drawing.Point(319, 583);
+           this.button2.Name = "button2";
+           this.button2.Size = new System.Drawing.Size(185, 63);
+           this.button2.TabIndex = 13;
+           this.button2.Text = "Получить ответ";
+           this.button2.UseVisualStyleBackColor = true;
+           this.button2.Click += new System.EventHandler(this.button2_Click);
+           //
+           // Zad1
+           //
+           this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+           this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+           this.ClientSize = new System.Drawing.Size(824, 753);
+           this.Controls.Add(this.button2);
+           this.Controls.Add(this.labIsThree2);
+           this.Controls.Add(this.labProizv2);
+           this.Controls.Add(this.labArr2);
+           this.Controls.Add(this.label3);
+           this.Controls.Add(this.label2);
+           this.Controls.Add(this.tbM);
+           this.Controls.Add(this.tbN2);
+           this.Controls.Add(this.button1);
+           this.Controls.Add(this.labIsThree1);
+           this.Controls.Add(this.lab1Proizv);
+           this.Controls.Add(this.labArr);
+           this.Controls.Add(this.tbN);
+           this.Controls.Add(this.label1);
+           this.Name = "Zad1";
+           this.Text = "Zad1";
+           this.ResumeLayout(false);
+           this.PerformLayout();
+ 
+       }
+ 
+       #endregion
+ 
+       private System.Windows.Forms.Label label1;
+       private System.Windows.Forms.TextBox tbN;
+       private System.Windows.Forms.Label labArr;
+       private System.Windows.Forms.Label lab1Proizv;
+       private System.Windows.Forms.Label labIsThree1;
+       private System.Windows.Forms.Button button1;
+       private System.Windows.Forms.TextBox tbN2;
+       private System.Windows.Forms.TextBox tbM;
+       private System.Windows.Forms.Label label2;
+       private System.Windows.Forms.Label label3;
+       private System.Windows.Forms.Label labArr2;
+       private System.Windows.Forms.Label labProizv2;
+       private System.Windows.Forms.Label labIsThree2;
+       private System.Windows.Forms.Button button2;
+   }
+}
